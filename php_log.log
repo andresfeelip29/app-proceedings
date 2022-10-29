@@ -1,0 +1,28 @@
+[30-Jul-2022 09:32:10 Europe/Berlin] Incio de APP!
+[30-Jul-2022 09:32:10 Europe/Berlin] PHP Fatal error:  Uncaught DI\NotFoundException: No entry or class found for 'UserRegisterController' in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php:136
+Stack trace:
+#0 C:\xampp\htdocs\app_desarrollo_web\app\init.php(6): DI\Container->get('UserRegisterCon...')
+#1 C:\xampp\htdocs\app_desarrollo_web\public\index.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php on line 136
+[30-Jul-2022 09:50:20 Europe/Berlin] Incio de APP!
+[30-Jul-2022 09:50:20 Europe/Berlin] PHP Notice:  Undefined variable: containerBuilder in C:\xampp\htdocs\app_desarrollo_web\app\init.php on line 5
+[30-Jul-2022 09:50:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function useAutowiring() on null in C:\xampp\htdocs\app_desarrollo_web\app\init.php:5
+Stack trace:
+#0 C:\xampp\htdocs\app_desarrollo_web\public\index.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\app_desarrollo_web\app\init.php on line 5
+[31-Jul-2022 00:55:51 Europe/Berlin] Incio de APP!
+[31-Jul-2022 00:55:51 Europe/Berlin] PHP Fatal error:  Uncaught DI\NotFoundException: No entry or class found for 'UserRegisterController' in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php:136
+Stack trace:
+#0 C:\xampp\htdocs\app_desarrollo_web\app\init.php(10): DI\Container->get('UserRegisterCon...')
+#1 C:\xampp\htdocs\app_desarrollo_web\public\index.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php on line 136
+[31-Jul-2022 00:55:52 Europe/Berlin] Incio de APP!
+[31-Jul-2022 00:55:52 Europe/Berlin] PHP Fatal error:  Uncaught DI\NotFoundException: No entry or class found for 'UserRegisterController' in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php:136
+Stack trace:
+#0 C:\xampp\htdocs\app_desarrollo_web\app\init.php(10): DI\Container->get('UserRegisterCon...')
+#1 C:\xampp\htdocs\app_desarrollo_web\public\index.php(11): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_desarrollo_web\app\vendor\php-di\php-di\src\Container.php on line 136

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /app_desarrollo_web
+
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^(.*)$ public/index.php?url=$1 [L,QSA]

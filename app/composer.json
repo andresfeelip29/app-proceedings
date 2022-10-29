@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php-di/php-di": "^6.4",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
